@@ -60,3 +60,9 @@ p{
     padding: 40px;
     margin-left: -40px;
 }
+
+.mar{
+    display: flex;
+    padding: 40px;
+    margin-left: 280px;
+}
