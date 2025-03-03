@@ -66,3 +66,8 @@ p{
     padding: 40px;
     margin-left: 280px;
 }
+
+article{
+    padding-right: 30px;
+    text-align: justify;
+}
