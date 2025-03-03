@@ -18,7 +18,7 @@
     padding: 60px;
     width: 200px;
     float: left;
-    background-color: rgb(247, 255, 255);
+    background-color: rgb(250, 255, 255);
     align-content: center;
 }
 
@@ -33,13 +33,13 @@ img{
 }
 
 .ul_1{
-    margin-left: -30px;
+    margin-left: -35px;
     padding: 30px;
     list-style-type: none;
 }
 
 .section{
-    max-height:fit-content
+    max-height:fit-content;
 }
 
 p{
@@ -72,10 +72,8 @@ article{
 }
 
 .quote{
-    padding: 5px;
-    list-style-type: circle;
-    margin-top: -50px;
-    margin-left: 360px;
+    display: flex;
+    margin: -45px 5px 5px 360px;
 }
 
 .ul_1 li {
