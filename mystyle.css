@@ -12,7 +12,6 @@
 .heading_2{
     text-decoration-line: underline;
     padding-top: 10px;
-
 }
 
 .section{
@@ -40,7 +39,7 @@ img{
 }
 
 .section{
-    max-height:max-content
+    max-height:fit-content
 }
 
 p{
@@ -77,4 +76,22 @@ article{
     list-style-type: circle;
     margin-top: -50px;
     margin-left: 360px;
+}
+
+.ul_1 li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.ul_1 li a {
+    text-decoration: none;
+    color: #000; 
+    padding: 0px 10px;
+    display: inline-block;
+}
+
+.ul_1 li a:hover {
+    text-decoration: underline;
+    text-decoration-color:rgb(98, 235, 216);
+    text-decoration-thickness: 2px;
 }
