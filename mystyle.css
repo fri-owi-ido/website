@@ -1,6 +1,22 @@
 body{
     font-family:'Times New Roman', Times, serif;
 }
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    "heading heading"
+    "section article"
+    "section Footer";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+}
+
+.heading {grid-area: heading;}
+.section {grid-area: section;}
+.article {grid-area: article;}
+.Footer {grid-area: Footer;}
+
 .heading{
     background-color: rgb(98, 235, 216); 
     padding: 40px; text-align: center;
@@ -24,7 +40,7 @@ body{
     float:left;
     background-color: rgb(255, 255, 255);
     align-content: center;
-    height:100%;
+    height:auto;
 }
 
 img{
