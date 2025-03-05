@@ -99,3 +99,7 @@ article{
     text-decoration-color:rgb(98, 235, 216);
     text-decoration-thickness: 2px;
 }
+
+@media screen and (max-width: 600px) {
+    
+}
