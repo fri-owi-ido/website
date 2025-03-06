@@ -117,3 +117,7 @@ hr{
 h2{
     font-weight: lighter;
 }
+
+.display{
+    display: none;
+}
