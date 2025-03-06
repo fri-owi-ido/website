@@ -34,6 +34,23 @@
     padding: 50px;
 }
 
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Hover state for the links */
+  .menu a:hover {
+    color: rgb(126, 230, 230);
+    text-decoration: underline;
+  }
+  
+  /* Active state for the links */
+  .menu a:active {
+    color: red;
+  }
+
 .content{
     padding: 30px;
     margin-right: 50px;
