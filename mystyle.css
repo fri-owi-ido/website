@@ -7,6 +7,8 @@
     grid-template-columns: 300px auto;
     grid-template-rows:auto auto;
     gap: 2px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
 }
 
 .container > div {
@@ -19,37 +21,67 @@
     letter-spacing: 0.5px;
 }
 
-.big { grid-area: big;}
+.big {
+    grid-area: big;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px; /* Adjust the height as needed */
+}
+
+.banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire area */
+    z-index: -1; /* Ensure the banner image is behind the text */
+}
+
+.big h1{
+    margin: 0;
+    background-color: rgba(113, 242, 247, 0.233);
+    padding: 10px;
+    font-size:44px; /* Adjust the font size */
+    font-weight: lighter;
+    color: black; /* Ensure the text color is visible */
+    z-index: 1; /* Ensure the text is above the banner */
+}
 .menu { grid-area: menu;}
 .content{ grid-area: content;}
 .Footer { grid-area: Footer;}
 
 .big{
-    padding: 10px;
-    background-color: aliceblue;
     padding: 50px;
 }
 
 .menu{
     padding: 50px;
+    gap: 40px;
 }
 
 .menu a {
     color: black;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
+    display: block;
+    line-height: 10px;
 }
   
 /* Hover state for the links */
 .menu a:hover {
     color: rgb(126, 230, 230);
     text-decoration: underline;
+    font-weight: lighter;
 }
   
 /* Active state for the links */
   .menu a:active {
     color: red;
 }
+
 
 .content{
     padding: 30px;
@@ -65,8 +97,8 @@
 img{
     width: 150px;
     height: 200px;
-    padding-bottom: 50px;
     align-items: center;
+    border: 1px solid rgba(184, 230, 227, 0.438);
 }
 
 hr{
@@ -81,3 +113,6 @@ hr{
     }
 }
 
+h2{
+    font-weight: lighter;
+}
