@@ -117,5 +117,7 @@ h2{
 }
 
 .role{
-    color: white;
+    color: rgb(219, 207, 207);
+    font-size: 16px;
+    margin-top: 1px;
 }
