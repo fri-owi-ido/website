@@ -42,11 +42,9 @@
 
 .big h1{
     margin: 0;
-    background-color: rgba(113, 242, 247, 0.233);
-    padding: 10px;
-    font-size:44px; /* Adjust the font size */
+    font-size:28px; /* Adjust the font size */
     font-weight: lighter;
-    color: black; /* Ensure the text color is visible */
+    color: rgba(20, 223, 238, 0.788); /* Ensure the text color is visible */
     z-index: 1; /* Ensure the text is above the banner */
 }
 .menu { grid-area: menu;}
@@ -116,8 +114,4 @@ hr{
 
 h2{
     font-weight: lighter;
-}
-
-.display{
-    display: none;
 }
