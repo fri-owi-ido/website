@@ -52,8 +52,13 @@ img{
     align-items: center;
 }
 
+hr{
+    height: 2px;
+}
+
 @media screen and (max-width: 400px) {
     .container{
         flex: 1fr;
     }
 }
+
