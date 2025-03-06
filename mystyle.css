@@ -27,7 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 150px; /* Adjust the height as needed */
+    height: 100px; /* Adjust the height as needed */
 }
 
 .banner-image {
