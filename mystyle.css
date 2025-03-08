@@ -108,15 +108,17 @@ hr{
 @media screen and (max-width: 480px) {
     .container{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr auto;
         text-align: left;
         font-size: small;
     }
 
-    img{
-        width: 50%;
-        height: auto;
-        max-width: 50%;
+    .menu{
+        width: 100%;
+    }
+
+    .content{
+        width: 100%;
     }
 }
 
