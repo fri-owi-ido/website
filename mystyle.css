@@ -79,13 +79,11 @@
     color: red;
 }
 
-
 .content{
     padding: 30px;
     text-align: justify;
     font-weight: lighter;
 }
-
 
 .Footer{
     padding: 30px;
@@ -102,7 +100,8 @@ img{
     .container{
         display: grid;
         grid-template-columns: 1fr auto;
-        text-align: left;
+        text-align: justify;
+        font-size: smaller;
     }
 }
 
