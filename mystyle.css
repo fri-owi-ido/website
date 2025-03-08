@@ -5,10 +5,9 @@
     "menu content content content content"
     "menu Footer Footer Footer Footer";
     grid-template-columns: 200px auto;
-    grid-template-rows:auto auto;
-    gap: 2px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: lighter;
+    gap: 2px;
 }
 
 .container > div {
@@ -56,7 +55,7 @@
 }
 
 .menu{
-    padding: 50px;
+    padding: 60px;
     gap: 40px;
 }
 
@@ -83,26 +82,20 @@
 
 .content{
     padding: 30px;
-    margin-right: 50px;
-    text-align: left;
+    text-align: justify;
     font-weight: lighter;
 }
 
 
 .Footer{
-    padding: 10px;
-    margin-left: 20px;
+    padding: 30px;
 }
 
 img{
     width: 100%;
     height: auto;
     align-items: center;
-    border: 1px solid rgba(184, 230, 227, 0.438);
-}
-
-hr{
-    height: 2px;
+    border: 1px solid rgba(202, 211, 210, 0.438);
 }
 
 @media screen and (max-width: 480px) {
@@ -110,15 +103,6 @@ hr{
         display: grid;
         grid-template-columns: 1fr auto;
         text-align: left;
-        font-size: small;
-    }
-
-    .menu{
-        width: 100%;
-    }
-
-    .content{
-        width: 100%;
     }
 }
 
