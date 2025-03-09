@@ -69,7 +69,7 @@
   
 /* Hover state for the links */
 .menu a:hover {
-    color: rgb(126, 230, 230);
+    color: rgb(8, 233, 233);
     text-decoration: underline;
     font-weight: lighter;
 }
