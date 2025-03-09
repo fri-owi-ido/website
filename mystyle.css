@@ -18,7 +18,7 @@
     flex-grow: 1;
     line-height: 1.5;
     letter-spacing: 0.5px;
-}
+}                                                              
 
 .big {
     grid-area: big;
@@ -64,7 +64,7 @@
     text-decoration: none;
     font-size: 16px;
     display: block;
-    line-height: 10px;
+    line-height: 5px;
 }
   
 /* Hover state for the links */
