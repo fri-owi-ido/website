@@ -43,7 +43,7 @@
     margin: 0;
     font-size:28px; /* Adjust the font size */
     font-weight: lighter;
-    color: rgba(20, 223, 238, 0.788); /* Ensure the text color is visible */
+    color: white; /* Ensure the text color is visible */
     z-index: 1; /* Ensure the text is above the banner */
 }
 .menu { grid-area: menu;}
@@ -113,7 +113,7 @@ h2{
 }
 
 .role{
-    color: rgb(219, 207, 207);
+    color: white;
     font-size: 16px;
     margin-top: 1px;
 }
@@ -124,5 +124,5 @@ li{
 }
 
 hr{
-    border:0.25px solid rgba(3, 199, 209, 0.82);
+    border:0.25px solid rgba(231, 240, 241, 0.82);
 }
